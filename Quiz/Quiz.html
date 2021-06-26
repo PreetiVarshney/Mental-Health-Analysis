@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assesment Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- top section -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">Mental Health Assesment Test</h2>
+        </div>
+    </div>   
+<!-- result section -->
+<div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+        <p>Your Score is  <span class="text-primary display-4 p-3">
+          0%  
+        </span>
+    ninja 
+</p>
+    </div>
+    <div class="decision lead">
+        According to your Score : Your Case Is  <span class="making">
+            0%
+        </span>
+    </div>
+</div>
+
+
+
+
+
+    <!-- quiz section -->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">The questions below ask are about your mental health and feelings.
+                In the last 6 months, have you experienced any of the following symptoms... </h2>
+            <form  class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        1. Use to feel very irritated and angry
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label  class="form-checked-label">Yes</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q1" value="B"checked >
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q1" value="C" checked>
+                        <label  class="form-checked-label">Not Sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        2.Feels very hopeless. 
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label  class="form-checked-label">Yes</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q2" value="B"checked >
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q2" value="C" checked>
+                        <label  class="form-checked-label">Not Sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        3. Having feeling of guilt everytime
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q3" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q3" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        4. Not able to concentrate
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q4" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q4" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        5. Changing in appetite frequently
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q5" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q5" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        6. Lack in motivation
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q6" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q6" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q6" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        7.No longer want to socialize
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q7" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q7" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q7" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        8. Having physical pain without any direct cause
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q8" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q8" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q8" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        9. Found  doing reckless(like drinking alcohol,taking drugs or participating in gambling) things
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q9" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q9" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q9" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        10. Feel unsure about my self-esteem 
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q10" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q10" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q10" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        11. Sometimes feeling very energetic and sometimes feeling very unenergetic
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q11" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q11" value="C" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q11" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        12.  Trouble in sleeping(Insomnia)
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q12" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q12" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q12" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        13. Difficulty in breathing(sometimes rapid breathing or shorteness of breathing)
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q13" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q13" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q13" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        14. Having Delusional thoughts(i.e. having false believe)
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q14" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q14" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q14" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        15. Having state of insensibility or unconsiousness(Stupor state)
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q15" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q15" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q15" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        16. Getting Panic Attack
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q16" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q16" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q16" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        17. Having Hallucinations(that involves senses and feels that something is real but it is imagination)
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q17" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q17" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q17" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        18. Sometimes having Suicidial thoughts
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q18" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q18" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q18" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        19. Having rapid Speeches and Movements(not remaining still,speaks anything no matter that makes sense or not)
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q19" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q19" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q19" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        20. Excessive Worrying 
+                    </p>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q20" value="A" checked>
+                        <label  class="form-checked-label">Yes </label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q20" value="B" checked>
+                        <label  class="form-checked-label">No</label>
+                    </div>
+                    <div class="form-checked my-2 text-white-50">
+                        <input type="radio" name="q20" value="C" checked>
+                        <label  class="form-checked-label">Not sure</label>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
